@@ -1,2 +1,6 @@
-kaggle.json
-.kaggle/
+data/
+*.csv
+*.parquet
+*.json
+*.pkl
+.ipynb_checkpoints/
