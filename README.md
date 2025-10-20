@@ -63,20 +63,20 @@ Modeling:
 • Accuracy: 61.4% | Macro-F1: 0.59
 
 Challenges:
-•	Historical rule changes affecting gameplay dynamics over 150+ years
-•	Difficulty predicting outcomes based solely on historical team data, since player rosters, team strategies, and competition contexts change over time, and much of the retained information reflects team-level playing style or techniques rather than current performance.
-•	Class imbalance (fewer draws)
+   •	Historical rule changes affecting gameplay dynamics over 150+ years
+   •	Difficulty predicting outcomes based solely on historical team data, since player rosters, team strategies, and competition contexts change over time, and much of the retained information reflects team-level playing style or techniques rather than current performance.
+   •	Class imbalance (fewer draws)
 Era drift in features over time
 
 Mitigations:
-•	Added rule change feature
-•	Chronological train-validation-test split
+   •	Added rule change feature
+   •	Chronological train-validation-test split
 
 License:
 Graduate Programs, University of San Diego
 
 Acknowledgments:
-• AAI-540: Machine Learning Operations, Applied Artificial Intelligence, University of San Diego
-• Professors Sean Coyne for guidance on model design and deployment
-• Amazon SageMaker Student Account for cloud infrastructure support
-• Kaggle for providing the soccer dataset
+   • AAI-540: Machine Learning Operations, Applied Artificial Intelligence, University of San Diego
+   • Professors Sean Coyne for guidance on model design and deployment
+   • Amazon SageMaker Student Account for cloud infrastructure support
+   • Kaggle for providing the soccer dataset
