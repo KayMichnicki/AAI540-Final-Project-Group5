@@ -1,5 +1,6 @@
 README – Soccer Match Outcome Prediction
 This project is a part of the AAI-540 course in the Applied Artificial Intelligence Program at the University of San Diego. 
+
 -- Project Status: Completed
 
 Installation:
