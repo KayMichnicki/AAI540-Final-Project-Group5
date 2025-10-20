@@ -24,25 +24,24 @@ This predictive model can be applied to:
 - Exploratory analysis of team performance trends over time
 
 Contributors: 
-•	Kay Michnicki
-•	Matt Thompson
+- Kay Michnicki
+- Matt Thompson
 
 Methods Used:
-•	Inferential Statistics
-•	Data Visualization
-•	Data Manipulation
-•	Machine Learning
-•	Cloud Computing 
+- Inferential Statistics
+- Data Visualization
+- Data Manipulation
+- Machine Learning
+- Cloud Computing 
 
 Technologies:
-•	Python
-•	Amazon SageMaker
-•	AWS S3
-•	XGBoost
-•	scikit-learn
-•	pandas
-•	Git / GitHub
-•	SQL
+- Python
+- Amazon SageMaker
+- AWS S3
+- XGBoost
+- pandas
+- Git / GitHub
+- SQL
 
 Project Description:
 We built a time-classification pipeline using 150 plus years of international soccer match data to predict match outcomes (Home Win/Draw/Away Win).
