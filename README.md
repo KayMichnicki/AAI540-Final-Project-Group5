@@ -46,30 +46,33 @@ Technologies:
 Project Description:
 We built a time-classification pipeline using 150 plus years of international soccer match data to predict match outcomes (Home Win/Draw/Away Win).
 Dataset: Kaggle International Football Results
-• 40,000+ matches
-• Variables include team names, scores, match dates, venues, tournaments
+- 40,000+ matches
+- Variables include team names, scores, match dates, venues, tournaments
 
 Feature Engineering:
-• ELO rating deltas
-• Recent performance streaks
-• Home advantage
-• Head-to-head history
-• Rest days
+- ELO rating deltas
+- Recent performance streaks
+- Home advantage
+- Head-to-head history
+- Rest days
 
 Modeling:
-• Logistic Regression (baseline)
-• XGBoost (final model)
-• Accuracy: 61.4% | Macro-F1: 0.59
+- Logistic Regression (baseline)
+- XGBoost (final model)
+- Accuracy: 61.4% | Macro-F1: 0.59
 
 Challenges:
-   •	Historical rule changes affecting gameplay dynamics over 150+ years
-   •	Difficulty predicting outcomes based solely on historical team data, since player rosters, team strategies, and competition contexts change over time, and much of the retained information reflects team-level playing style or techniques rather than current performance.
-   •	Class imbalance (fewer draws)
-Era drift in features over time
+- Historical rule changes affecting gameplay dynamics over 150+ years
+- Difficulty predicting outcomes based solely on historical team data, since player rosters, team strategies, and competition contexts change over time, and much of the retained information reflects team-level playing style or techniques rather than current performance.
+- Class imbalance (fewer draws)
+- Era drift in features over time
 
 Mitigations:
-   •	Added rule change feature
-   •	Chronological train-validation-test split
+- Add a rule change feature
+- Use resample techniques
+- Use class weight
+- Features engineering
+- Model tuning
 
 License:
 Graduate Programs, University of San Diego
